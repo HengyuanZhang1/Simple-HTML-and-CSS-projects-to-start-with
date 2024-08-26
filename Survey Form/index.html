@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="title">freeCodeCampy Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
+
+    <form id="survey-form">
+      <!--Name, Email and Age-->
+      <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+      <div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+      <div>
+        <label for="age">Age<span>(optional)</span></label><br>
+        <input type="number" id="age" name="age" min="0" max="100" placeholder="Age" />
+      </div>
+      <!--Dropdown, Radio buttons-->
+      <div>
+        <h3>Which option best describes your current role?</h3>
+        <select id="dropdown" name="dropdown" >
+          <option value="" disabled>Select current role</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <h3>Would you recommend freeCodeCamp to a friend?</h3>
+        <label class="radio-label">
+          <input type="radio" name="user-recommend" value="Definitely" checked />
+          Definitely
+        </label><br>
+        <label class="radio-label">
+          <input type="radio" name="user-recommend" value="Maybe" />
+          Maybe
+        </label><br>
+        <label class="radio-label">
+          <input type="radio" name="user-recommend" value="Not sure" />
+          Not sure
+        </label>
+      </div>
+      <!--Checkboxes-->
+      <div>
+        <h3>What would you like to see improved? (Check all that apply)</h3>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Front-end Projects" />
+          Front-end Projects
+        </label><br>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Back-end Projects" />
+          Back-end Projects
+        </label><br>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Data Visualization" />
+          Data Visualization
+        </label><br>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Challenges" />
+          Challenges
+        </label><br>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Open Source Community" />
+          Open Source Community
+        </label><br>
+        <label class="checkbox-label">
+          <input type="checkbox" name="improve" value="Gitter help rooms" />
+          Gitter help rooms
+        </label><br>
+      </div>
+      <!--Textarea-->
+      <div>
+        <h3>Any comments or suggestions?</h3><br>
+        <textarea name="comment" placeholder="Enter your comment here..."></textarea><br>
+      </div>
+     
+      <div> 
+        <button id="submit" type="submit">Submit</button>
+      </div>
+
+    </form>
+  </body>  
+</html>
