@@ -1,20 +1,20 @@
-#Simple HTML and CSS Practice Projects**
+*Simple HTML and CSS Practice Projects**
 
 Welcome to the Simple HTML and CSS Practice Projects repository! This repo contains beginner-level projects designed to help you practice and improve your HTML and CSS skills.
 
 
-##General Project Overview
+**General Project Overview
 
 This repository features various HTML and CSS projects that showcase different techniques and concepts. Each project is aimed at providing hands-on experience with styling, layout, and responsive design.
 
-##Features:
+**Features:
 
 	--Responsive layouts
 	--CSS transitions and animations
 	--Flexbox and grid layouts
 	--Interactive elements
 
-#Getting Started
+**Getting Started
 
 	1. Download the Repository:
   	  --Click the green “Code” button on this repository page.
@@ -26,10 +26,10 @@ This repository features various HTML and CSS projects that showcase different t
   	  --You can view the project directly in your browser.
   	  --To make changes, you can open the HTML and CSS files in a text editor.
 
-#Contributing
+**Contributing
 
 Feel free to fork this repository and submit pull requests with improvements or new features.
 
-#License
+**License
 
 This repository does not include a specific license. All rights reserved.
