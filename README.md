@@ -1,6 +1,6 @@
-# HTML and CSS Practice Projects
+# HTML-CSS-Javascript Practice Projects
 
-Welcome to the HTML, CSS, and JavaScript Practice Projects repository! This repo contains a collection of beginner-level projects designed to help you practice and improve your skills in these three core web technologies.
+Welcome to the HTML-CSS-JavaScript Practice Projects repository! This repo contains a collection of beginner-level projects designed to help you practice and improve your skills in these three core web technologies.
 
 
 ## General Project Overview
